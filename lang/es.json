@@ -32,6 +32,7 @@
     "tokenactionhud.damage": "Daño",
     "tokenactionhud.dc": "CD",
     "tokenactionhud.equipment": "Equipamiento",
+    "tokenactionhud.forcepowers": "Force Powers",
     "tokenactionhud.free": "Gratuito",
     "tokenactionhud.inventory": "Inventario",
     "tokenactionhud.lair": "Guarida",
@@ -54,6 +55,7 @@
     "tokenactionhud.starting": "Empezando",
     "tokenactionhud.tags": "Etiquetas",
     "tokenactionhud.talents": "Talentos",
+    "tokenactionhud.techpowers": "Tech Powers",
     "tokenactionhud.traits": "Rasgos",
     "tokenactionhud.weapons": "Armas",
     
