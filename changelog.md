@@ -1,5 +1,46 @@
 # Changelog
 
+## [0.9.12] 2020-11-18
+### Bugfix
+- SFRPG - prevent HUD crashing when used with character with unnamed profession
+
+## [0.9.11] 2020-11-17
+### Added
+- DungeonWorld support for special and uncategoriesd moves
+
+## [0.9.10] 2020-11-17
+### Bugfix
+- PF1 Bugfix for subskills
+
+## [0.9.9] 2020-11-16
+### Added
+- LANCER RPG - render item sheet with right click
+
+## [0.9.8] 2020-11-16
+### Bugfix
+- LANCER RPG fix delimiter
+
+## [0.9.7] 2020-11-16
+### Added
+- LANCER RPG support thanks to Khaos#6127.
+
+## [0.9.6] 2020-11-14
+### Bugfix
+- PF1 - Non-GM players now see the unidentified item name in their HUD until item is identified.
+
+## [0.9.5] 2020-11-14
+### Bugfix
+- Magic Items now correctly hide themselves if they do not meet attuned or equipped requirement.
+
+## [0.9.4] 2020-11-14
+### Bugfix
+- Add some cursory checks to protect against tokens with no actors.
+
+## [0.9.3] 2020-11-11
+### Changed
+- PF1E - Spontaneous spellbooks should no longer slots to be shown
+- DND5e - consumables and items without an action (or the 'none' action) should also be filtered out of the HUD inventory.
+
 ## [0.9.2] 2020-11-11
 ### Added
 - PF1E - added rolls for Concentration for spellbooks other than primary
