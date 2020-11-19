@@ -5,6 +5,7 @@ import { Pf1SystemManager } from './pf1.js';
 import { Pf2eSystemManager } from './pf2e.js';
 import { SfrpgSystemManager } from './sfrpg.js';
 import { Sw5eSystemManager } from './sw5e.js';
+import { Sw5eFoundrySystemManager } from './sw5efoundry.js';
 import { Wfrp4eSystemManager } from './wfrp4e.js';
 import { LancerSystemManager } from './lancer.js';
 
@@ -25,6 +26,8 @@ export class SystemManagerFactory {
                 return new SfrpgSystemManager(appName);
             case 'sw5e':
                 return new Sw5eSystemManager(appName);
+            case 'sw5efoundry':
+                return new Sw5eFoundrySystemManager(appName);
             case 'wfrp4e':
                 return new Wfrp4eSystemManager(appName);
             case 'lancer':
