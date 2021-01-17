@@ -4,7 +4,7 @@
     "author": "^ and stick#0520",
     "description": "Creates a HUD showing a selected token's common actions.",
     "minimumCoreVersion": "0.6.0",
-    "compatibleCoreVersion": "0.7.6",
+    "compatibleCoreVersion": "0.7.9",
     "scripts": [
         "./lib/tagify/tagify.min.js"
     ],
@@ -25,7 +25,8 @@
         "sw5efoundry",
         "demonlord",
         "pf1",
-        "lancer"
+        "lancer",
+        "aime"
     ],
     "languages": [
         {
@@ -70,7 +71,7 @@
         }
     ],
     "url": "https://github.com/MatteoPieroni/fvtt-tokenactionhud",
-    "manifest": "https://raw.githubusercontent.com/MatteoPieroni/fvtt-tokenactionhud/main/module.json",
-    "version": "0.1.0",
-    "download": "https://github.com/MatteoPieroni/fvtt-tokenactionhud/archive/0.10.0.zip"
+    "manifest": "https://raw.githubusercontent.com/MatteoPieroni/fvtt-tokenactionhud/0.11.0/module.json",
+    "version": "0.11.0",
+    "download": "https://github.com/MatteoPieroni/fvtt-tokenactionhud/archive/0.11.0.zip"
 }
