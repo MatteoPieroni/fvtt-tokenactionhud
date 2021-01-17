@@ -8,10 +8,13 @@ import { Sw5eSystemManager } from './sw5e.js';
 import { Sw5eFoundrySystemManager } from './sw5efoundry.js';
 import { Wfrp4eSystemManager } from './wfrp4e.js';
 import { LancerSystemManager } from './lancer.js';
+import { AimeSystemManager } from './aime.js';
 
 export class SystemManagerFactory {
     static create(system, appName) {
         switch(system) {
+            case 'aime':
+                return new AimeSystemManager(appName);
             case 'demonlord':
                 return new DemonlordSystemManager(appName);
             case 'dnd5e':
